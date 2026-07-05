@@ -27,7 +27,7 @@ For every single concept, I document:
 
 ### 2. Data Structures
 #### 2.1 Arrays
-- [ ] Custom Array (Creation & Logic)
+##### ✅ Custom Array (Creation & Logic)
 - [ ] Custom Push Method
 - [ ] Custom Get Method
 - [ ] Custom Pop Method
