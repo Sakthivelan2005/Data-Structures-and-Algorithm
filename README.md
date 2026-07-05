@@ -33,7 +33,7 @@ For every single concept, I document:
 ##### ✅ Custom Pop Method
 ##### ✅ Custom Shift Method
 ##### ✅ Custom DeleteByIndex Method
-- [ ] Algorithm: Reverse String
+##### ✅ Algorithm: Reverse String
 - [ ] Algorithm: Palindromes
 - [ ] Algorithm: Reverse Integer
 - [ ] Algorithm: Sentence Capitalization
