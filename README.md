@@ -22,8 +22,8 @@ For every single concept, I document:
 ### 1. Big O Notation
 ##### ✅ O(n) Implementation 
 ##### ✅ O(1) Implementation
-- [ ] O(n^2) Implementation
-- [ ] O(log n) Implementation
+##### ✅ Implementation
+- [ ] O(log n) Implementation (Skipped)
 
 ### 2. Data Structures
 #### 2.1 Arrays
