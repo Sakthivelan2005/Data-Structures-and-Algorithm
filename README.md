@@ -20,10 +20,10 @@ For every single concept, I document:
 *(Tracking raw, ground-up logic implementations)*
 
 ### 1. Big O Notation
-✅ O(n) Implementation
-✅ O(1) Implementation
-- [x] O(n^2) Implementation
-- [x] O(log n) Implementation
+##### ✅ O(n) Implementation 
+##### ✅ O(1) Implementation
+- [ ] O(n^2) Implementation
+- [ ] O(log n) Implementation
 
 ### 2. Data Structures
 #### 2.1 Arrays
