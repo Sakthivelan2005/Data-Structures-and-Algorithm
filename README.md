@@ -34,8 +34,8 @@ For every single concept, I document:
 ##### ✅ Custom Shift Method
 ##### ✅ Custom DeleteByIndex Method
 ##### ✅ Algorithm: Reverse String
-- [ ] Algorithm: Palindromes
-- [ ] Algorithm: Reverse Integer
+##### ✅ Algorithm: Palindromes
+##### ✅ Algorithm: Reverse Integer
 - [ ] Algorithm: Sentence Capitalization
 - [ ] Algorithm: FizzBuzz
 - [ ] Algorithm: Max Profit 
