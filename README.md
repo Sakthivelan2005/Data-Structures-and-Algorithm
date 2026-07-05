@@ -16,28 +16,100 @@ For every single concept, I document:
 3. **Space Complexity:** The strict Big O notation for memory usage.
 
 ---
-
 ## 🗺️ Progress Tracker
-*(This list will be checked off as I build and stress-test each concept)*
+*(Tracking raw, ground-up logic implementations)*
 
-### 1. Big O Notation & Fundamentals
-  ✅ Time & Space Complexity ( $O(1)$, $O(n)$, $O(n^2)$, $O(\log n)$ )
-- [ ] Problem-Solving Patterns (Sliding Window, Two Pointers)
+### 1. Big O Notation
+✅ O(n) Implementation
+✅ O(1) Implementation
+- [x] O(n^2) Implementation
+- [x] O(log n) Implementation
 
-### 2. Core Data Structures
-- [ ] Arrays & Strings
-- [ ] Hash Tables / Objects
-- [ ] Linked Lists (Singly & Doubly)
-- [ ] Stacks & Queues
-- [ ] Trees (Binary Search Trees)
-- [ ] Graphs
+### 2. Data Structures
+#### 2.1 Arrays
+- [ ] Custom Array (Creation & Logic)
+- [ ] Custom Push Method
+- [ ] Custom Get Method
+- [ ] Custom Pop Method
+- [ ] Custom Shift Method
+- [ ] Custom DeleteByIndex Method
+- [ ] Algorithm: Reverse String
+- [ ] Algorithm: Palindromes
+- [ ] Algorithm: Reverse Integer
+- [ ] Algorithm: Sentence Capitalization
+- [ ] Algorithm: FizzBuzz
+- [ ] Algorithm: Max Profit 
+- [ ] Algorithm: Array Chunks
+- [ ] Algorithm: Two Sum (Brute Force)
+
+#### 2.2 Linked Lists
+- [ ] Singly Linked List Implementation
+- [ ] Push Method
+- [ ] Pop Method
+- [ ] Unshift Method
+- [ ] Shift Method
+- [ ] Get First Method
+- [ ] Get Last Method
+- [ ] Get Element By Index
+- [ ] Set Method
+- [ ] Insert Method
+- [ ] Size Method
+- [ ] Clear Method
+- [ ] Doubly Linked List Implementation
+- [ ] Doubly: Push Method
+- [ ] Doubly: Pop Method
+- [ ] Doubly: Unshift Method
+- [ ] Doubly: Shift Method
+- [ ] Algorithm: Reverse Linked List
+
+#### 2.3 Stacks & Queues
+- [ ] Stack Implementation
+- [ ] Stack: Push Method
+- [ ] Stack: Pop Method
+- [ ] Queue Implementation
+- [ ] Queue: Enqueue Method
+- [ ] Queue: Dequeue Method
+- [ ] Queue: Min Method
+- [ ] Algorithm: Valid Parenthesis
+- [ ] Algorithm: Reverse String Using Stack
+
+#### 2.4 Hash Tables
+- [ ] Hash Table Implementation
+- [ ] Hash Function Logic
+- [ ] Set Method
+- [ ] Get Method
+- [ ] Get All Keys & Values
+- [ ] Algorithm: Word Counter
+- [ ] Algorithm: Two Sum (Refactored/Optimized)
+
+#### 2.5 Trees
+- [ ] Binary Search Tree (BST) Implementation
+- [ ] BST: Insert Method
+- [ ] BST: Includes Method
 
 ### 3. Essential Algorithms
-- [ ] **Searching:** Linear Search, Binary Search
-- [ ] **Basic Sorting:** Bubble Sort, Selection Sort, Insertion Sort
-- [ ] **Advanced Sorting:** Merge Sort, Quick Sort
-- [ ] **Recursion**
+#### 3.1 Recursion
+- [ ] Recursion: Count Down
+- [ ] Recursion: Factorial
 
+#### 3.2 Tree Traversal
+- [ ] Breadth First Search (BFS)
+- [ ] Depth First Search (DFS) - PreOrder
+- [ ] Depth First Search (DFS) - PostOrder
+
+#### 3.3 Graphs
+- [ ] Graph Implementation
+- [ ] Add Vertex
+- [ ] Add Edges
+- [ ] Remove Edges
+- [ ] Remove Vertex
+
+#### 3.4 Sorting Algorithms
+- [ ] Bubble Sort Implementation
+- [ ] Selection Sort Implementation
+- [ ] Insertion Sort Implementation
+- [ ] Merge Array Logic
+- [ ] Merge Sort Implementation
 ---
 
 ## 🚀 How to Run the Code
