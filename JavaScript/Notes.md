@@ -1,18 +1,18 @@
-##### Data Structure
+## Data Structure
 
 &#x09;A data structure is a specific way of organizing, storing,  and accessing data.
 
 
 
-##### Algorithm
+## Algorithm
 
 &#x20;	A set of instructions that tells a computer to do something, or you can also say step-by-step solution of the problem is called algorithm.
 
 
+---------------
 
 
-
-##### Big O
+### Big O
 
 &#x09;Big O notation helps us to understand how long an algorithm will take to run or how much memory it will need as the amount of data it handles grows.
 
@@ -20,7 +20,7 @@
 
 
 
-##### O(n)
+#### O(n)
 
 &#x09;the execution time of the algorithm grows linearly in proportion to the size of the input data (n).
 
@@ -30,7 +30,7 @@
 
 
 
-##### O(1)
+#### O(1)
 
 &#x09;The execution time of the algorithm remains constant regardless of the input size.
 
