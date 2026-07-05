@@ -1,4 +1,4 @@
-# 🧠 Data Structures & Algorithms 
+# <sub><img width="52" height="52" alt="image" src="https://github.com/user-attachments/assets/75056ab8-35c2-4343-b36f-0e660c0a89ca" /></sub> <sup> Data Structures & Algorithms </sup>
 
 > Mastering core concepts of Data Structures and Algorithms from the ground up. Focused on strict time and space complexity optimization (Big O) to independently crush LeetCode and solve real-world logic problems.
 
@@ -27,7 +27,7 @@ For every single concept, I document:
 
 ### 2. Data Structures
 #### 2.1 Arrays
-- [ ] Custom Array (Creation & Logic)
+##### ✅ Custom Array (Creation & Logic)
 - [ ] Custom Push Method
 - [ ] Custom Get Method
 - [ ] Custom Pop Method
