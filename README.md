@@ -36,7 +36,7 @@ For every single concept, I document:
 ##### ✅ Algorithm: Reverse String
 ##### ✅ Algorithm: Palindromes
 ##### ✅ Algorithm: Reverse Integer
-- [ ] Algorithm: Sentence Capitalization
+##### ✅ Algorithm: Sentence Capitalization
 - [ ] Algorithm: FizzBuzz
 - [ ] Algorithm: Max Profit 
 - [ ] Algorithm: Array Chunks
