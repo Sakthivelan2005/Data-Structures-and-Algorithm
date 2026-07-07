@@ -40,7 +40,7 @@ For every single concept, I document:
 ##### ✅ Algorithm: FizzBuzz
 ##### ✅ Algorithm: Max Profit 
 ##### ✅ Algorithm: Array Chunks
-- [ ] Algorithm: Two Sum (Brute Force)
+##### ✅ Algorithm: Two Sum (Brute Force)
 
 #### 2.2 Linked Lists
 - [ ] Singly Linked List Implementation
