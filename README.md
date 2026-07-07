@@ -38,7 +38,7 @@ For every single concept, I document:
 ##### ✅ Algorithm: Reverse Integer
 ##### ✅ Algorithm: Sentence Capitalization
 ##### ✅ Algorithm: FizzBuzz
-- [ ] Algorithm: Max Profit 
+##### ✅ Algorithm: Max Profit 
 - [ ] Algorithm: Array Chunks
 - [ ] Algorithm: Two Sum (Brute Force)
 
