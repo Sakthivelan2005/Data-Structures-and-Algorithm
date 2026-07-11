@@ -72,16 +72,36 @@ class LinkedList {
         this.length++;
         return this
     }
+
+    shift(){
+        if(!this.head){
+            return undefined;
+        }
+        else{
+            this.head = this.head.reference;
+            this.length--;
+
+             if(this.length === 0){
+                this.head = null;
+                this.tail = null;
+            }
+        }
+       return this;
+    }
 }
 
 let obj = new LinkedList(10);
 // obj.push(20);
 
 console.log(obj);
-obj.pop();
+console.log(obj.pop())
 
 console.log(obj)
 
 
 console.log(obj.unshift(5))
+
+
+console.log(obj.shift())
+console.log(obj.shift())
 
