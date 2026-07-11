@@ -48,8 +48,8 @@ For every single concept, I document:
 ##### ✅ Pop Method
 ##### ✅ Unshift Method
 ##### ✅ Shift Method
-- [ ] Get First Method
-- [ ] Get Last Method
+##### ✅ Get First Method
+##### ✅ Get Last Method
 - [ ] Get Element By Index
 - [ ] Set Method
 - [ ] Insert Method

@@ -89,10 +89,30 @@ class LinkedList {
         }
        return this;
     }
+
+    getFirst(){
+        if(!this.head){
+            return "No nodes found"
+        }
+        else{
+            return this.head
+        }
+    }
+
+    getLast(){
+        if(!this.tail){
+            return "No nodes found"
+        }
+        else{
+            return this.tail
+        }
+    }
+
 }
 
 let obj = new LinkedList(10);
-// obj.push(20);
+obj.push(20);
+obj.push(30);
 
 console.log(obj);
 console.log(obj.pop())
@@ -104,5 +124,10 @@ console.log(obj.unshift(5))
 
 
 console.log(obj.shift())
-console.log(obj.shift())
+
+console.log(obj.getFirst());
+console.log(obj.getLast());
+
+
+
 
