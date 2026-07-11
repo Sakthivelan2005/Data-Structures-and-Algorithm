@@ -12,7 +12,7 @@ class LinkedList {
         this.length = 1;
     }
 
-    //Custom Push Method for Adding elements into Linked List
+    //Custom Push Method for Adding elements into Linked List at end
     push(value) {
         let newNode = new Node(value);
         
@@ -29,6 +29,7 @@ class LinkedList {
         this.length++ //Increase the length after adding element.
     }
 
+    //Custom Pop Method for Remove elements into Linked List at end 
     pop(){
         let temp = this.head;
         let prev = this.head;

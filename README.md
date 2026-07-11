@@ -43,11 +43,11 @@ For every single concept, I document:
 ##### ✅ Algorithm: Two Sum (Brute Force)
 
 #### 2.2 Linked Lists
-- [ ] Singly Linked List Implementation
-- [ ] Push Method
-- [ ] Pop Method
-- [ ] Unshift Method
-- [ ] Shift Method
+##### ✅ Singly Linked List Implementation
+##### ✅ Push Method
+##### ✅ Pop Method
+##### ✅ Unshift Method
+##### ✅ Shift Method
 - [ ] Get First Method
 - [ ] Get Last Method
 - [ ] Get Element By Index
