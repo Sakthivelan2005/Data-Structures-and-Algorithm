@@ -1,11 +1,12 @@
 # **Linked List**
 
-- A *Linked list* is a linear data structure where elements, called nodes, are not stored contiguously in memory.
+- A **Linked list** is a linear data structure where elements, called nodes, are not stored contiguously in memory.
 
-- Instead, each node contains *data* and *reference*, or *link* to the next node in the sequence. 
+- Instead, each node contains **data** and **reference**, or *link* to the next node in the sequence. 
 
 
 ```js
+//Grab your own Linked List 
 class Node{
     constructor(value){
         this.data = value;

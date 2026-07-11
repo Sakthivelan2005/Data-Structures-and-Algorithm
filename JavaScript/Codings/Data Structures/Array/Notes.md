@@ -1,6 +1,6 @@
 # **Array**
 
-### *Array* is an ordered collection of elements that can be accessed by using a numerical index.
+### **Array** is an ordered collection of elements that can be accessed by using a numerical index.
 ---
 
 ```js
