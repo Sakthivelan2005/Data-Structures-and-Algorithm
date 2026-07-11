@@ -10,7 +10,7 @@
 class Node{
     constructor(value){
         this.data = value;
-        this.reference = null;
+        this.next = null;
     }
 }
 
