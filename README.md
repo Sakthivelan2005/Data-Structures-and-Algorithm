@@ -50,7 +50,7 @@ For every single concept, I document:
 ##### ✅ Shift Method
 ##### ✅ Get First Method
 ##### ✅ Get Last Method
-- [ ] Get Element By Index
+##### ✅ Get Element By Index
 - [ ] Set Method
 - [ ] Insert Method
 - [ ] Size Method
