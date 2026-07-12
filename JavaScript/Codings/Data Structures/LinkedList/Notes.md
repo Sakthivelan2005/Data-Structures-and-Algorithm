@@ -201,7 +201,7 @@ let obj = new LinkedList(10); //Use it like this.
 ```js
 class Node{
     constructor(Value){
-        this.date = Value;
+        this.data = Value;
         this.next = null;
         this.prev = null;
     }
