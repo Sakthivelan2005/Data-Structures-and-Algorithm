@@ -193,3 +193,28 @@ class LinkedList {
 let obj = new LinkedList(10); //Use it like this.
 
 ```
+---
+
+## **2. Doubly Linked List**
+* A **doubly linked list** has nodes with addresses to both the **previous** and the **next** node.
+
+```js
+class Node{
+    constructor(Value){
+        this.date = Value;
+        this.next = null;
+        this.prev = null;
+    }
+}
+
+class DoublyLinkedList{
+    constructor(Value){
+        this.head = new Node(Value);
+        this.tail = this.head;
+        this.length = 1;
+    }
+}
+
+let obj = new DoublyLinkedList(10);
+console.log(obj);
+```

@@ -55,7 +55,7 @@ For every single concept, I document:
 ##### ✅ Insert Method
 ##### ✅ Size Method
 ##### ✅ Clear Method
-- [ ] Doubly Linked List Implementation
+##### ✅ Doubly Linked List Implementation
 - [ ] Doubly: Push Method
 - [ ] Doubly: Pop Method
 - [ ] Doubly: Unshift Method
