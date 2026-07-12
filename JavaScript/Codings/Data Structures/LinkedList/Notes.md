@@ -5,6 +5,7 @@
 - Instead, each node contains **data** and **reference**, or *link* to the next node in the sequence. 
 
 
+## **1. Singly Linked List**
 ```js
 //Grab your own Linked List 
 class Node{
