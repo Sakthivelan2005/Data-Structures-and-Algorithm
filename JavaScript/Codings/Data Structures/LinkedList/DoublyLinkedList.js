@@ -1,6 +1,6 @@
 class Node{
     constructor(Value){
-        this.date = Value;
+        this.data = Value;
         this.next = null;
         this.prev = null;
     }
@@ -12,7 +12,53 @@ class DoublyLinkedList{
         this.tail = this.head;
         this.length = 1;
     }
+
+    //Custom Push method to add element at end of the Linked List
+    push(value){
+        let newNode = new Node(value);
+
+        if(!this.head){
+            this.head = newNode;
+            this.tail = newNode;
+        }
+        this.tail.next = newNode;
+        newNode.prev = this.tail
+        this.tail = newNode;
+        this.length++;
+
+        return this;
+    }
+
+    //Custom Pop method to remove element at end of the Linked List
+    pop(){
+        let temp =  this.tail;
+        if (!this.head){
+            return undefined;
+        }
+        else if(this.length === 1){
+            this.head = null;
+            this.tail = null
+        }
+        else{
+            this.tail = this.tail.prev;
+            this.tail.next = null
+            temp.prev = null;
+        }
+       
+        this.length--;
+        return temp
+    }
 }
 
 let obj = new DoublyLinkedList(10);
+console.log(obj);
+console.log(obj.push(20))
+console.log(obj.push(30))
+
+console.log(obj.pop())
+console.log(obj.pop())
+console.log(obj.pop())
+console.log(obj.pop())
+
+
 console.log(obj);

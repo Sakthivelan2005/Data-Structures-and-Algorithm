@@ -56,8 +56,8 @@ For every single concept, I document:
 ##### ✅ Size Method
 ##### ✅ Clear Method
 ##### ✅ Doubly Linked List Implementation
-- [ ] Doubly: Push Method
-- [ ] Doubly: Pop Method
+##### ✅ Doubly: Push Method
+##### ✅ Doubly: Pop Method
 - [ ] Doubly: Unshift Method
 - [ ] Doubly: Shift Method
 - [ ] Algorithm: Reverse Linked List
