@@ -51,10 +51,10 @@ For every single concept, I document:
 ##### ✅ Get First Method
 ##### ✅ Get Last Method
 ##### ✅ Get Element By Index
-- [ ] Set Method
-- [ ] Insert Method
-- [ ] Size Method
-- [ ] Clear Method
+##### ✅ Set Method
+##### ✅ Insert Method
+##### ✅ Size Method
+##### ✅ Clear Method
 - [ ] Doubly Linked List Implementation
 - [ ] Doubly: Push Method
 - [ ] Doubly: Pop Method
