@@ -40,7 +40,7 @@ class LinkedList {
             return undefined;
         }
 
-        //traverse into Linked List Until the referece is null to get Last Element
+        //traverse into Linked List Until the Next node is null to get Last Element
         while(temp.next){
            prev = temp;
            temp = prev.next;
@@ -48,7 +48,7 @@ class LinkedList {
         }
         
         this.tail = prev; //The Last previous element assigned as tail
-        this.tail.next = null; //The Tail's referece assigned as null
+        this.tail.next = null; //The Tail's Next node assigned as null
         this.length--; //After removing decreamenting the length by 1
 
         //After removing if there is no elements are there just assigned Null to both Head and tail
