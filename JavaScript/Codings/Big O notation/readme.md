@@ -1,3 +1,5 @@
+# **📝 Notes**
+
 ### Big O Notation
 
 * Big O notation helps us to understand how long an algorithm will take to run or how much memory it will need as the amount of data it handles grows. (time complexity and space complexity)
