@@ -60,7 +60,7 @@ For every single concept, I document:
 ##### ✅ Doubly: Pop Method
 ##### ✅ Doubly: Unshift Method
 ##### ✅ Doubly: Shift Method
-- [ ] Algorithm: Reverse Linked List
+##### ✅ Algorithm: Reverse Linked List
 
 #### 2.3 Stacks & Queues
 - [ ] Stack Implementation

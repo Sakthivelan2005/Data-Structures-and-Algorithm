@@ -150,7 +150,7 @@ class LinkedList {
         }
         else{
             if(index > this.length){
-                return "Index is too far, Cannot be Insert"
+                return `Max index can be inserted at ${this.length}. You given ${index}. `            
             }
             newNode.next = this.get(index); //this assign new node's next node to After index node.
             this.get(index - 1).next = newNode; //this assign new node to current index's next node
@@ -185,6 +185,32 @@ class LinkedList {
         this.length = 0;
         return this;
     }
+
+    //This method reverse the Linked List
+    reverse() {
+        if(this.length === 0){
+            return "No Nodes found";
+        }
+        else if(this.length === 1){
+            return this;
+        }
+        else{
+            let temp = this.head;
+            this.head = this.tail;
+            this.tail = temp;
+
+            let next = temp
+            let prev = null;
+
+            for(let i = 0; i < this.length; i++){
+                next = temp.next;
+                temp.next = prev;
+                prev = temp;
+                temp = next;
+            }
+            return this;
+        }
+    }
 }
  
 let obj = new LinkedList(10);
@@ -209,7 +235,10 @@ console.log(obj.insert(570,1));
 
 console.log(obj.size());
 console.log(obj.insert(1090,4));
+console.log();
+console.log(obj.insert(0,3));
 
+
+console.log(obj.reverse())
 console.log(obj.clear())
 
-export default LinkedList;
