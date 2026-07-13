@@ -234,7 +234,7 @@ class DoublyLinkedList{
     //Custom Pop method to remove element at end of the Linked List
     pop(){
         let temp =  this.tail;
-        if (!this.head){
+        if (this.length === 0){
             return undefined;
         }
         else if(this.length === 1){
@@ -272,7 +272,7 @@ class DoublyLinkedList{
     shift(){
         let temp = this.head;
     
-        if(!this.head){
+        if(this.length === 0){
             return undefined;
         }
         else if(this.length === 1){
