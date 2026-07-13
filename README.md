@@ -58,8 +58,8 @@ For every single concept, I document:
 ##### ✅ Doubly Linked List Implementation
 ##### ✅ Doubly: Push Method
 ##### ✅ Doubly: Pop Method
-- [ ] Doubly: Unshift Method
-- [ ] Doubly: Shift Method
+##### ✅ Doubly: Unshift Method
+##### ✅ Doubly: Shift Method
 - [ ] Algorithm: Reverse Linked List
 
 #### 2.3 Stacks & Queues

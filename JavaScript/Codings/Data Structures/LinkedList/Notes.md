@@ -199,6 +199,7 @@ let obj = new LinkedList(10); //Use it like this.
 * A **doubly linked list** has nodes with addresses to both the **previous** and the **next** node.
 
 ```js
+//Grab your own Doubly Linked List 
 class Node{
     constructor(Value){
         this.data = Value;
@@ -248,6 +249,45 @@ class DoublyLinkedList{
        
         this.length--;
         return temp
+    }
+
+    //Custom Unshift method to add element at Beginning of the linked list.
+    unshift(value){
+        let newNode = new Node(value);
+
+        if(!this.head){
+            this.head = newNode;
+            this.tail = newNode;
+        }
+        else {
+            newNode.next = this.head;
+            this.head.prev = newNode;
+            this.head = newNode;
+        }
+        this.length++;
+        return this;
+    }
+
+    //Custom Shift method to remove element from Beginning of the linked list.
+    shift(){
+        let temp = this.head;
+    
+        if(!this.head){
+            return undefined;
+        }
+        else if(this.length === 1){
+            this.head = null;
+            this.tail = null;
+            temp.next = null;
+        }
+        else{
+            this.head = this.head.next;
+            this.head.prev = null;
+            temp.next = null;
+        }
+        
+        this.length--;
+        return temp;
     }
 }
 
