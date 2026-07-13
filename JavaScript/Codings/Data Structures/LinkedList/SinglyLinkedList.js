@@ -212,3 +212,4 @@ console.log(obj.insert(1090,4));
 
 console.log(obj.clear())
 
+export default LinkedList;

@@ -104,3 +104,7 @@ console.log(obj.shift())
 
 
 console.log(obj);
+
+
+
+export default DoublyLinkedList;
