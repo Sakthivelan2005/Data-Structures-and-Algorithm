@@ -4,6 +4,8 @@
 
 - Instead, each node contains **data** and **reference**, or *link* to the next node in the sequence. 
 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20250619155958124670/Linked-list.webp" align="center">
+
 
 ## **1. Singly Linked List**
 ```js
