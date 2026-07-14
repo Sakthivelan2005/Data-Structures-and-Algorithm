@@ -63,7 +63,7 @@ For every single concept, I document:
 ##### ✅ Algorithm: Reverse Linked List
 
 #### 2.3 Stacks & Queues
-- [ ] Stack Implementation
+##### ✅ Stack Implementation
 - [ ] Stack: Push Method
 - [ ] Stack: Pop Method
 - [ ] Queue Implementation
