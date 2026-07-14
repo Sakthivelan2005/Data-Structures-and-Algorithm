@@ -64,8 +64,8 @@ For every single concept, I document:
 
 #### 2.3 Stacks & Queues
 ##### ✅ Stack Implementation
-- [ ] Stack: Push Method
-- [ ] Stack: Pop Method
+##### ✅ Stack: Push Method
+##### ✅ Stack: Pop Method
 - [ ] Queue Implementation
 - [ ] Queue: Enqueue Method
 - [ ] Queue: Dequeue Method
