@@ -66,7 +66,7 @@ For every single concept, I document:
 ##### ✅ Stack Implementation
 ##### ✅ Stack: Push Method
 ##### ✅ Stack: Pop Method
-- [ ] Queue Implementation
+##### ✅ Queue Implementation
 - [ ] Queue: Enqueue Method
 - [ ] Queue: Dequeue Method
 - [ ] Queue: Min Method
