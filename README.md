@@ -67,8 +67,8 @@ For every single concept, I document:
 ##### ✅ Stack: Push Method
 ##### ✅ Stack: Pop Method
 ##### ✅ Queue Implementation
-- [ ] Queue: Enqueue Method
-- [ ] Queue: Dequeue Method
+##### ✅ Queue: Enqueue Method
+##### ✅ Queue: Dequeue Method
 - [ ] Queue: Min Method
 - [ ] Algorithm: Valid Parenthesis
 - [ ] Algorithm: Reverse String Using Stack
