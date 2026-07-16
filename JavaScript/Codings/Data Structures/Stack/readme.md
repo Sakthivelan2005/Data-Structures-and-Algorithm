@@ -2,3 +2,60 @@
 
 - **Stack** is a linear data structure that follows **LIFO** (Last In First Out) principle.
 - **Real-world example:** Undo Redo (ctrl+z , ctrl+y) in PC.
+
+```js
+//Grab your Own Stack
+class Node{
+    constructor(Value){
+        this.data = Value;
+        this.next = null;
+    }
+}
+
+class Stack{
+    constructor(Value){
+        this.first = new Node(Value);
+        this.length = 1
+    }
+
+    //Custom Push method for stack
+    push(value){
+        let newNode = new Node(value)
+        if(this.length === 0){
+            this.first = newNode;
+        }
+        else{
+            newNode.next = this.first;
+            this.first = newNode;
+        }
+
+        this.length++;
+        return this;
+    }
+
+    //Custom pop method for stack
+    pop(){
+        let temp = this.first;
+        if(this.length === 0){
+            return "No Item Found";
+        }
+        else if(this.length === 1){
+            this.first = null;
+        }
+        else{
+            this.first = this.first.next;
+            temp.next = null;
+        }
+
+        this.length--;
+        return temp
+    }
+}
+
+let myStack = new Stack(10);
+//Output
+console.log(myStack.push(20));
+console.log(myStack.pop());
+
+
+```
