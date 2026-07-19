@@ -43,23 +43,42 @@ class Stack{
         this.length--;
         return temp
     }
+
+    //returns minimum Value of the stack
+    min(){
+        let current = this.first;
+        let min = current.data; //Initializing
+        if(this.length === 0){
+            return "No nodes found";
+        }
+        else{
+            while(current){
+                if(min > current.data){
+                    min = current.data;
+                }
+                current = current.next
+            }
+        }
+        
+        return min;
+    }
 }
 
-let myStack = new Stack(10);
+let myStack = new Stack(100);
 console.log(myStack.push(20));
 console.log(myStack.push(30));
 
-console.log("Removed: ",myStack.pop());
-console.log(myStack);
+// console.log("Removed: ",myStack.pop());
+// console.log(myStack);
 
-console.log("Removed: ",myStack.pop());
-console.log(myStack);
+// console.log("Removed: ",myStack.pop());
+// console.log(myStack);
 
-console.log("Removed: ",myStack.pop());
-console.log(myStack);
+// console.log("Removed: ",myStack.pop());
+// console.log(myStack);
 
-console.log("Removed: ",myStack.pop());
-console.log(myStack);
+// console.log("Removed: ",myStack.pop());
+console.log(myStack.min());
 
 
 
