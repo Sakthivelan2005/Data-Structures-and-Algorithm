@@ -70,7 +70,7 @@ For every single concept, I document:
 ##### ✅ Queue: Enqueue Method
 ##### ✅ Queue: Dequeue Method
 ##### ✅ Queue: Min Method
-- [ ] Algorithm: Valid Parenthesis
+##### ✅ Algorithm: Valid Parenthesis
 - [ ] Algorithm: Reverse String Using Stack
 
 #### 2.4 Hash Tables
