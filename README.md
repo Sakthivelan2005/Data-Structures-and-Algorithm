@@ -71,7 +71,7 @@ For every single concept, I document:
 ##### ✅ Queue: Dequeue Method
 ##### ✅ Queue: Min Method
 ##### ✅ Algorithm: Valid Parenthesis
-- [ ] Algorithm: Reverse String Using Stack
+##### ✅ Algorithm: Reverse String Using Stack
 
 #### 2.4 Hash Tables
 - [ ] Hash Table Implementation
