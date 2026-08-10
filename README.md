@@ -74,7 +74,7 @@ For every single concept, I document:
 ##### ✅ Algorithm: Reverse String Using Stack
 
 #### 2.4 Hash Tables
-- [ ] Hash Table Implementation
+##### ✅ Hash Table Implementation
 - [ ] Hash Function Logic
 - [ ] Set Method
 - [ ] Get Method
