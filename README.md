@@ -23,7 +23,7 @@ For every single concept, I document:
 ##### ✅ O(n) Implementation 
 ##### ✅ O(1) Implementation
 ##### ✅ Implementation
-- [ ] O(log n) Implementation (Skipped)
+- [ ] O(log n) Implementation (Skipped) 
 
 ### 2. Data Structures
 #### 2.1 Arrays
