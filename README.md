@@ -8,7 +8,7 @@
 ---
 
 ## 🎯 The Mission
-This repository is not just for storing copy-pasted code. It is a strict training ground. Every solution here is written in **JavaScript** and strictly adheres to the principles of clean code (KISS & DRY). 
+This repository is not just for storing copy-pasted code. It is a strict training ground. Every solution here is written in **JavaScript** and strictly adheres to the principles of clean code (KISS & DRY).
 
 For every single concept, I document:
 1. **The Core Logic:** How the data structure or algorithm actually works under the hood.
